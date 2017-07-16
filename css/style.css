@@ -1,0 +1,20 @@
+.home-body {
+  color: #fff;
+}
+
+.video-bg {
+  position: fixed;
+  z-index: -100;
+}
+
+@media only screen and (max-width: 767px) {
+  .video-bg {
+    display: none;
+  }
+
+  .home-body {
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
